@@ -1,0 +1,9 @@
+name: devsecops test
+on: [push]
+
+jobs:
+	run-shell-command:
+		runs-on: ubuntu-latest
+		steps:
+			- name: print data
+			  run: echo "Hello world - github actions"
